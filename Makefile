@@ -1,0 +1,6 @@
+#!/bin/bash
+
+build:
+	GOOS=windows GOARCH=amd64 go build -tags windows  ./...
+run:
+	GOOS=windows GOARCH=amd64 go run -tags windows  ./...
