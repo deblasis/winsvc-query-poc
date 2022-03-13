@@ -20,3 +20,12 @@ Trying to query the Service Manager here fails when connecting when the user run
 This branch contains calls at a lower level with lower permissions that result in a successful call
 
 **TODO insert screenshot**
+
+
+# Usage
+
+Switch to one of the above branches and then
+
+```
+make run
+```
